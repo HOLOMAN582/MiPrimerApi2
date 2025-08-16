@@ -13,6 +13,3 @@ def read_root():
 def get_saludo(nombre: str):
     return {"message": f"Hola, {nombre}!"}
 
-
-
-
