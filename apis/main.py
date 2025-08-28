@@ -40,11 +40,11 @@ class User(BaseModel):
     id: int = Field(..., examples=[1])
 
     # name: string requerido
-    name: str = Field(..., examples=["Alejandro Salgar"])
+    name: str = Field(..., examples=["David Múnera"])
 
     # email: string requerido (no se valida formato de email aquí; si quieres,
     # podrías usar pydantic EmailStr)
-    email: str = Field(..., examples=["alejandro.salgar@gmail.com"])
+    email: str = Field(..., examples=["david.munera@gmail.com"])
 
 
 # -----------------------------
