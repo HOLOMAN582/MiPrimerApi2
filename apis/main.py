@@ -185,7 +185,7 @@ def eliminar_usuario(user_id: int) -> dict:
 #   pip install fastapi uvicorn
 #
 # Ejecutar el servidor (desde la carpeta del archivo):
-#   uvicorn main:app --reload
+#   python -m uvicorn main:app --reload
 #     - 'main' es el nombre de este archivo sin la extensión .py
 #     - 'app' es la variable FastAPI creada arriba
 #     - '--reload' recarga automático al guardar cambios (útil en desarrollo)
